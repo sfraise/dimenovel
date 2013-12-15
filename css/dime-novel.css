@@ -1,0 +1,627 @@
+@charset "utf-8";
+/* DEFAULT CSS RESET */
+html,body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,p,blockquote,fieldset,input,hr {margin:0; padding:0;}
+h1,h2,h3,h4,h5,h6,pre,code,address,caption,cite,code,em,strong,th {font-size:1em; font-weight:normal; font-style:normal;}
+ul,ol {list-style:none;}
+fieldset,img,hr {border:none;}
+caption,th {text-align:left;}
+table {border-collapse:collapse; border-spacing:0;}
+td {vertical-align:top;}
+
+*  {
+    margin: 0;
+    padding: 0;
+}
+
+/* Chrome outline fix */
+*:focus {
+    outline: none;
+}
+
+html {
+	height:100%;
+	width:100%;
+	overflow:hidden;
+}
+
+.modal {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('http://i.stack.imgur.com/FhHRx.gif') 
+                50% 50% 
+                no-repeat;
+}
+
+body.loading {
+    overflow: hidden;   
+}
+
+body.loading .modal {
+    display: block;
+}
+
+#step-one {
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:30;
+	width:100%;
+	height:100%;	
+}
+
+#step-one-start {
+	position:fixed;
+	z-index:21;
+	cursor:pointer;
+	width:50%;
+	margin-left:50%;
+}
+
+#step-one-bg{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index:20;	
+	
+}
+
+#step-two {
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:29;
+	width:100%;
+	height:100%;	
+	cursor:url(../images/fwd-cursor.png), auto;
+}
+
+#step-two img{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+		
+}
+
+#step-three {
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:28;
+	width:100%;
+	height:100%;
+	cursor:url(../images/fwd-cursor.png), auto;
+}
+
+#step-three img{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;	
+}
+
+#step-four {
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:27;
+	width:100%;
+	height:100%;
+	cursor:url(../images/right-cursor.png), auto;
+}
+
+#step-four img{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;	
+}
+
+#step-five {
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:26;
+	width:100%;
+	height:100%;
+	cursor:url(../images/fwd-cursor.png), auto;
+}
+
+#step-five img{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;	
+}
+
+#step-six {
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:26;
+	width:100%;
+	height:100%;
+	cursor:url(../images/dialogue-cursor.png), auto;
+}
+
+#step-six img{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;	
+}
+
+#fade {
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:21;
+	width:100%;
+	height:100%;
+	background-color:#fff;
+}
+
+#step-seven {
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:20;
+	width:100%;
+	height:100%;
+}
+
+#step-seven img [usemap]{
+	position:fixed;
+	max-width:100%;
+	max-height:100%;
+	width:auto;
+	height:auto;	
+}
+
+
+#dialogue-one {
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:56;
+	width:100%;
+	height:100%;
+	cursor:url(../images/dialogue-cursor.png), auto;
+}
+
+#dialogue-one img{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;	
+}
+
+#dialogue-two {
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:55;
+	width:100%;
+	height:100%;
+	cursor:url(../images/dialogue-cursor.png), auto;
+}
+
+#dialogue-two img{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;	
+}
+
+#dialogue-three {
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:54;
+	width:100%;
+	height:100%;
+	cursor:url(../images/dialogue-cursor.png), auto;
+}
+
+#dialogue-three img{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;	
+}
+
+#dialogue-four {
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:53;
+	width:100%;
+	height:100%;
+	cursor:url(../images/dialogue-cursor.png), auto;
+}
+
+#dialogue-four img{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;	
+}
+
+#dialogue-five {
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:52;
+	width:100%;
+	height:100%;
+	cursor:url(../images/dialogue-cursor.png), auto;
+}
+
+#dialogue-five img{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;	
+}
+
+#dialogue-six {
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:51;
+	width:100%;
+	height:100%;
+	cursor:url(../images/dialogue-cursor.png), auto;
+}
+
+#dialogue-six img{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;	
+}
+
+#dialogue-seven {
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:50;
+	width:100%;
+	height:100%;
+	cursor:url(../images/dialogue-cursor.png), auto;
+}
+
+#dialogue-seven img{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;	
+}
+
+#dialogue-eight {
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:49;
+	width:100%;
+	height:100%;
+	cursor:url(../images/dialogue-cursor.png), auto;
+}
+
+#dialogue-eight img{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;	
+}
+
+#dialogue-nine {
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:48;
+	width:100%;
+	height:100%;
+	cursor:url(../images/dialogue-cursor.png), auto;
+}
+
+#dialogue-nine img{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;	
+}
+
+#dialogue-ten {
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:47;
+	width:100%;
+	height:100%;
+	cursor:url(../images/dialogue-cursor.png), auto;
+}
+
+#dialogue-ten img{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;	
+}
+
+#dialogue-eleven {
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:46;
+	width:100%;
+	height:100%;
+	cursor:url(../images/dialogue-cursor.png), auto;
+}
+
+#dialogue-eleven img{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;	
+}
+
+#dialogue-twelve {
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:45;
+	width:100%;
+	height:100%;
+	cursor:url(../images/dialogue-cursor.png), auto;
+}
+
+#dialogue-twelve img{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;	
+}
+
+#dialogue-thirteen {
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:44;
+	width:100%;
+	height:100%;
+	cursor:url(../images/dialogue-cursor.png), auto;
+}
+
+#dialogue-thirteen img{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;	
+}
+
+#dialogue-fourteen {
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:43;
+	width:100%;
+	height:100%;
+	cursor:url(../images/dialogue-cursor.png), auto;
+}
+
+#dialogue-fourteen img{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;	
+}
+
+#dialogue-fifteen {
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:42;
+	width:100%;
+	height:100%;
+	cursor:url(../images/dialogue-cursor.png), auto;
+}
+
+#dialogue-fifteen img{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;	
+}
+
+#dialogue-sixteen {
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:41;
+	width:100%;
+	height:100%;
+	cursor:url(../images/dialogue-cursor.png), auto;
+}
+
+#dialogue-sixteen img{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;	
+}
+
+#dialogue-seventeen {
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:40;
+	width:100%;
+	height:100%;
+	cursor:url(../images/dialogue-cursor.png), auto;
+}
+
+#dialogue-seventeen img{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;	
+}
+
+#dialogue-eighteen {
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:39;
+	width:100%;
+	height:100%;
+	cursor:url(../images/dialogue-cursor.png), auto;
+}
+
+#dialogue-eighteen img{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;	
+}
+
+#dialogue-nineteen {
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:38;
+	width:100%;
+	height:100%;
+	cursor:url(../images/dialogue-cursor.png), auto;
+}
+
+#dialogue-nineteen img{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;	
+}
+
+#dialogue-twenty {
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:37;
+	width:100%;
+	height:100%;
+	cursor:url(../images/dialogue-cursor.png), auto;
+}
+
+#dialogue-twenty img{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;	
+}
+
+#dialogue-twenty-one {
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:36;
+	width:100%;
+	height:100%;
+	cursor:url(../images/dialogue-cursor.png), auto;
+}
+
+#dialogue-twenty-one img{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;	
+}
+
+#dialogue-twenty-two {
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:35;
+	width:100%;
+	height:100%;
+	cursor:url(../images/dialogue-cursor.png), auto;
+}
+
+#dialogue-twenty-two img{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;	
+}
+
+#dialogue-twenty-three {
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:34;
+	width:100%;
+	height:100%;
+	cursor:url(../images/dialogue-cursor.png), auto;
+}
+
+#dialogue-twenty-three img{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;	
+}
+
+#comic-container .turn-page{
+	background-color:#ccc;
+	background-size:100% 100%;
+}
+
+#comic-container{
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:25;
+	width:100%;
+	height:100%;
+	background: url(../images/comic-bg.jpg) no-repeat left center fixed;
+}
+
+.topbar {
+    position:absolute;
+    z-index:99;
+}

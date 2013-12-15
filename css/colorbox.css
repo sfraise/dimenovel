@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'action_man_extendedregular';
+    src: url('Action_Man_Extended-webfont.eot');
+    src: url('Action_Man_Extended-webfont.eot?#iefix') format('embedded-opentype'),
+    url('Action_Man_Extended-webfont.woff') format('woff'),
+    url('Action_Man_Extended-webfont.ttf') format('truetype'),
+    url('Action_Man_Extended-webfont.svg#action_man_extendedregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* DO NOT ALTER */
+#colorbox, #cboxOverlay, #cboxWrapper {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:9999;
+    overflow:hidden;
+    font-family:'action_man_extendedregular';
+    font-size:12px;
+    color:#fff;
+}
+#cboxOverlay {
+    position:fixed;
+    width:100%;
+    height:100%;
+}
+#cboxMiddleLeft, #cboxBottomLeft {
+    clear:left;
+}
+#cboxContent {
+    position:relative;
+}
+#cboxLoadedContent {
+    overflow:auto;
+}
+#cboxTitle {
+    margin:0;
+}
+#cboxLoadingOverlay, #cboxLoadingGraphic {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+}
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow {
+    cursor:pointer;
+    display:none !important;
+}
+.cboxPhoto {
+    float:left;
+    margin:auto;
+    border:0;
+    display:block;
+}
+.cboxIframe {
+    width:100%;
+    height:100%;
+    display:block;
+    border:0;
+}
+
+/* STANDARD COLORBOX WINDOW CSS */
+.colorboxtitle {
+    color:#fff;
+    font-weight:bold;
+    background:#6b83b6;
+    padding:5px;
+}
+.cbtitle {
+    float:left;
+}
+.cbclose {
+    float:right;
+    cursor:pointer;
+}
+.colorboxbody {
+    background:#fff;
+    color:#000;
+    padding:10px;
+}
+
+/* REGISTRATION BOX */
+#registerlbcontent {
+    margin: 40px;
+    background-color: none; /* Needed for IEs */
+    border:none;
+    height:auto;
+    width:800px;
+
+    -mox-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+
+    -moz-box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+    -webkit-box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+    box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+}
+
+.regformleft {
+    float:left;
+}
+.regsubmit {
+    float:right;
+}
