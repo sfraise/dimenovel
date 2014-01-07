@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3cb219a4-3c42-44d7-bb29-aa98504a5e08" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/colorbox/triggers.js" afterPath="$PROJECT_DIR$/js/colorbox/triggers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="3cb219a4-3c42-44d7-bb29-aa98504a5e08" name="Default" comment="Changed triggers.js to include height:auto to prevent scroll bar">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/controltoggle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/head.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dimenovel.iws" />
@@ -32,10 +34,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="dime-novel.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="dime-novel.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/dime-novel.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="1" selection-start="993" selection-end="993" vertical-scroll-proportion="0.0" vertical-offset="499" max-vertical-offset="10744">
+            <state line="46" column="1" selection-start="993" selection-end="993" vertical-scroll-proportion="1.0921788" vertical-offset="0" max-vertical-offset="10744">
               <folding />
             </state>
           </provider>
@@ -44,16 +46,16 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="1" selection-start="2185" selection-end="2185" vertical-scroll-proportion="-12.230769" vertical-offset="430" max-vertical-offset="1105">
+            <state line="4" column="2" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="595">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="triggers.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/colorbox/triggers.js">
+      <file leaf-file-name="head.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/head.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="60" selection-start="317" selection-end="317" vertical-scroll-proportion="0.12125535" vertical-offset="0" max-vertical-offset="701">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
               <folding />
             </state>
           </provider>
@@ -62,20 +64,27 @@
       <file leaf-file-name="topbar.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/topbar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="39" selection-start="3591" selection-end="3591" vertical-scroll-proportion="-21.538462" vertical-offset="1089" max-vertical-offset="1853">
+            <state line="97" column="39" selection-start="3591" selection-end="3591" vertical-scroll-proportion="0.0" vertical-offset="1649" max-vertical-offset="1853">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="triggers.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/colorbox/triggers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="60" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="204">
               <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <marker date="1387152899574" expanded="true" signature="28:379" placeholder="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="colorbox.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/colorbox.css">
+      <file leaf-file-name="controltoggle.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/controltoggle.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="27" selection-start="1124" selection-end="1124" vertical-scroll-proportion="0.0" vertical-offset="523" max-vertical-offset="1870">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
               <folding />
             </state>
           </provider>
@@ -105,19 +114,21 @@
         <option value="$PROJECT_DIR$/register.php" />
         <option value="$PROJECT_DIR$/css/dime-novel.css" />
         <option value="$PROJECT_DIR$/css/dime-novel-interface.css" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/views/topbar.php" />
         <option value="$PROJECT_DIR$/css/colorbox.css" />
         <option value="$PROJECT_DIR$/js/colorbox/triggers.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/views/head.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP-5.5.6" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="162" />
-    <option name="y" value="4" />
-    <option name="width" value="1400" />
-    <option name="height" value="861" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -126,7 +137,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -145,6 +156,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -173,79 +185,40 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dimenovel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dimenovel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dimenovel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dimenovel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="colorbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dimenovel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dimenovel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dimenovel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dimenovel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="options.lastSelected" value="settings.github" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mysql-connector-license.txt" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FullScreen" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
   </component>
   <component name="PublishConfig">
     <servers>
-      <server id="2d02d979-5a1a-476b-9a01-8e042290522a">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" />
-          </mappings>
-        </serverdata>
-      </server>
       <server id="6bfb1cc0-01cc-42f4-a1bd-0a03f8a87c43">
         <serverdata>
           <mappings>
@@ -341,33 +314,39 @@
       <created>1387057024108</created>
       <updated>1387057024108</updated>
     </task>
+    <task id="LOCAL-00001" summary="Changed triggers.js to include height:auto to prevent scroll bar">
+      <created>1387154255841</created>
+      <updated>1387154255841</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="162" y="4" width="1400" height="861" extended-state="0" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287483" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947975" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947975" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6712517" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -377,165 +356,103 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Changed triggers.js to include height:auto to prevent scroll bar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed triggers.js to include height:auto to prevent scroll bar" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/profile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/Redirect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/Session.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classes/Config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="701">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="701" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/errors/404.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/functions/sanitize.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/init.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.05304212" vertical-offset="0" max-vertical-offset="782">
-          <folding />
-        </state>
+        <state line="2" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.05304212" vertical-offset="0" max-vertical-offset="782" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/register.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="6" selection-start="32" selection-end="2354" vertical-scroll-proportion="-24.653847" vertical-offset="770" max-vertical-offset="1513">
-          <folding />
-        </state>
+        <state line="83" column="6" selection-start="32" selection-end="2354" vertical-scroll-proportion="-24.653847" vertical-offset="770" max-vertical-offset="1513" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/read-comics.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3961">
-          <folding>
-            <marker date="1387057304281" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1387057304281" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1387057304281" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1387057304281" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1387057304281" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1387057304281" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1387057304281" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1387057304281" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1387057304281" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1387057304281" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1387057304281" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1387057304281" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1387057304281" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1387057304281" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1387057304281" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1387057304281" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1387057304281" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1387057304281" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1387057304281" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1387057304281" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1387057304281" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1387057304281" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1387057304281" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1387057304281" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1387057304281" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1387057304281" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1387057304281" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1387057304281" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1387057304281" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1387057304281" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1387057304281" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1387057304281" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1387057304281" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1387057304281" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1387057304281" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1387057304281" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1387057304281" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1387057304281" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1387057304281" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1387057304281" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1387057304281" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3961" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="206" column="16" selection-start="6411" selection-end="6411" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3604">
-          <folding />
-        </state>
+        <state line="206" column="16" selection-start="6411" selection-end="6411" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3604" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/dime-novel-interface.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="783" selection-end="829" vertical-scroll-proportion="0.7517832" vertical-offset="0" max-vertical-offset="6375">
+        <state line="31" column="0" selection-start="783" selection-end="829" vertical-scroll-proportion="0.7517832" vertical-offset="0" max-vertical-offset="6375" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/colorbox.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="27" selection-start="1124" selection-end="1124" vertical-scroll-proportion="0.0" vertical-offset="523" max-vertical-offset="1870" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="28" selection-start="89" selection-end="89" vertical-scroll-proportion="0.07275321" vertical-offset="0" max-vertical-offset="701" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/colorbox/triggers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="60" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+          <folding>
+            <marker date="1387152899574" expanded="true" signature="28:379" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/topbar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="39" selection-start="3591" selection-end="3591" vertical-scroll-proportion="0.0" vertical-offset="1649" max-vertical-offset="1853">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/dime-novel.css">
+    <entry file="file://$PROJECT_DIR$/views/head.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="1" selection-start="993" selection-end="993" vertical-scroll-proportion="0.0" vertical-offset="499" max-vertical-offset="10744">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="1" selection-start="2185" selection-end="2185" vertical-scroll-proportion="-12.230769" vertical-offset="430" max-vertical-offset="1105">
+        <state line="4" column="2" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="595">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/topbar.php">
+    <entry file="file://$PROJECT_DIR$/js/controltoggle.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="39" selection-start="3591" selection-end="3591" vertical-scroll-proportion="-21.538462" vertical-offset="1089" max-vertical-offset="1853">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/colorbox.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="27" selection-start="1124" selection-end="1124" vertical-scroll-proportion="0.0" vertical-offset="523" max-vertical-offset="1870">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="701">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/colorbox/triggers.js">
+    <entry file="file://$PROJECT_DIR$/css/dime-novel.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="60" selection-start="317" selection-end="317" vertical-scroll-proportion="0.12125535" vertical-offset="0" max-vertical-offset="701">
+        <state line="46" column="1" selection-start="993" selection-end="993" vertical-scroll-proportion="1.0921788" vertical-offset="0" max-vertical-offset="10744">
           <folding />
         </state>
       </provider>
